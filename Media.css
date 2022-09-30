@@ -1,0 +1,172 @@
+@media (min-width:850px) {
+    #menu{
+        display: none;
+    }
+}
+/* media at 850px */
+
+@media (max-width:850px) {
+
+    body{
+        padding: 20px;
+    }
+
+    .nav-right li{
+       display: none;
+    }
+    nav{
+        width: 100%;
+    }
+    .nav-right{
+        width: 30%;
+    }
+    .nav-right ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+     }
+     .nav-right button{
+        width: 60px;
+        
+    }
+    .nav-left{
+   width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+/* HERO SECTION  */
+
+
+.hero-section{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+  
+  
+}
+
+.hero-1{
+    width: 90%;
+    font-size:23px ;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+.hero-2 {
+    width: 90%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.hero-text{
+    width: 90%;
+    display: flex;
+justify-content: center;
+align-items: center;
+   
+}
+.hero-text p{
+    font-size: 15px;
+    padding: 15px 0;
+}
+.hero-text button:nth-child(1){
+    width: 120px;
+    margin:10px 0 0 0 ;
+}
+.hero-text button:nth-child(2){
+    width: 150px;
+    margin:10px 0 0 0 ;
+   
+}
+/* SECTION 2  */
+
+.section-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brands{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.brands li{
+    width: 130px;
+    padding: 10px
+}
+
+
+/* SECTION-3 */
+ 
+
+.section-3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+.box{
+    width: 100%;
+   display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+.box li{
+    width: 280px;
+ 
+    margin:  0px 10px 20px 10px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+/* media at 425px */
+
+@media (max-width:425px) {
+    #autopy{
+        font-size: 20px;
+    }
+    .nav-right button{
+        width: 45px;
+        padding: 5px;
+        
+    }
+    /* hero button  */
+    .hero-text button:nth-child(1){
+        width: 90px;
+        margin:10px 0 0 0 ;
+     
+    }
+    .hero-text button:nth-child(2){
+        width: 133px;
+        margin:10px 0 0 0 ;
+        padding: 6px;
+       
+    }
+}
